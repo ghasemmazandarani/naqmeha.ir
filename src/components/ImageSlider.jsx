@@ -6,10 +6,13 @@ import img from "../assets/p1.jpg"
 import img2 from "../assets/p2.jpg"
 import img3 from "../assets/p4.jpg"
 import img4 from "../assets/4.jpg"
-
+import img5 from "../assets/j5.jpg"
+import img6 from "../assets/j6.jpg"
 const ImageSlider = () => {
 
   const photos = [
+    {src: img5},
+    {src: img6},
     { src: img },
     { src: img2 },
     { src: img3 },
